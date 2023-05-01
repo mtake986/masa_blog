@@ -1,8 +1,8 @@
 import React from "react";
 import moment from "moment";
 import Link from "next/link";
+
 const PostDetail = ({ post }) => {
-  console.log(`post: `, post);
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
